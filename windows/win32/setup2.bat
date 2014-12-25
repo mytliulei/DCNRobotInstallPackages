@@ -28,7 +28,7 @@ python setup.py install
 cd ..
 
 @echo °²×°scapy
-cd scapy-2.0.1
+cd scapy-2.1
 python setup.py install
 cd ..
 
