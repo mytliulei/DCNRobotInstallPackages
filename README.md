@@ -1,14 +1,15 @@
 # DCNRobotInstallPackages
 
-DCNRobot的安装依赖包，需要编写或者运行脚本的tx请下载
+DCNRobot的安装依赖包
 
 安装程序分为windows和linux
 
 ## 1. windows
-目前仅提供win32的安装包，64位机器和系统也可以安装
-进入windows\win32\，下载全部文件，执行setup.bat即可
 
-DCN可下载ftp://10.1.145.36/RobotFramework/安装包/win32.rar
+  * 建议win7系统，xp系统需要安装ipv6组件，即在cmd里执行ipv6 install
+  * 登陆 ftp://10.1.145.36/RobotFramework/安装包/win32.rar，解压后点击setup.bat安装（使用管理员权限），注意解压路径不要有中文
+  * https://github.com/mytliulei/DCNRobotInstallPackages, 下载到本地，进入DCNRobotInstallPackages/windows/win32/ 执行setp.bat
+
 
 ## 2. linux
-计划后续发布docker img。。。
+**计划后续发布docker img。。。** :smile:
