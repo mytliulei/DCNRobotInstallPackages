@@ -32,6 +32,11 @@ cd scapy-2
 python setup.py install
 cd ..
 
+@echo 安装pygal
+cd pygal-1.7.0
+python setup.py install
+cd ..
+
 @echo on
 
 @echo RobotFramework安装完成

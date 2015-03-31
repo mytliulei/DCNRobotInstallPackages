@@ -28,3 +28,4 @@
 15-paramiko-1.14.0.tar.gz
 16-robotframework-sshlibrary-2.0.2.tar.gz
 17-scapy-master.zip
+18-pygal-1.7.0.tar.gz
