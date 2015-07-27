@@ -68,41 +68,6 @@ pause
 
 @echo 如果05-robotframework-ride-1.3.win32.exe没有安装成功，请手动安装，安装成功后，桌面会有机器人的快捷图标
 
-@echo 安装ride成功后，请按任意键继续安装其他依赖包
-
-pause
-
-@echo 开始安装pyte
-cd pyte-0.4.8
-python setup.py install
-cd ..
-
-@echo 安装ecdsa
-cd ecdsa-0.11
-python setup.py install
-cd ..
-
-@echo 安装paramiko
-cd paramiko-1.14.0
-python setup.py install
-cd ..
-
-@echo 安装robotframework-sshlibrary
-cd robotframework-sshlibrary-2.0.2
-python setup.py install
-cd ..
-
-@echo 安装scapy
-cd scapy-2
-python setup.py install
-cd ..
-
-@echo 安装pygal
-cd pygal-1.7.0
-python setup.py install
-cd ..
-
-@echo on
 
 @echo RobotFramework安装完成，按任意键继续安装ipv6组件，win7及以上已自带，报错请无视 
 
@@ -111,5 +76,9 @@ pause
 ipv6 install
 
 @echo ipv6组件安装完毕，按任意键结束安装
+
+@echo 安装ride成功后，请执行setup2.bat安装其他依赖包
+
+@echo on
 
 pause
